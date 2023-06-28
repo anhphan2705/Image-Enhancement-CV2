@@ -1,4 +1,5 @@
-# img_smoothing
-Smoothing/Low pass filter
+# img_filter_opencv
 Image processing using OpenCV
+- Smoothing / Low pass fitler
+- Sharpening / High pass filter
 
