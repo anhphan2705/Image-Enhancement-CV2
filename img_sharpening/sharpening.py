@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read img file
-img = cv2.imread("./img_data/moutain.jpg")
+img = cv2.imread("./img_data/cat.jpg")
 
 # Create custom kernel
 kernel1 = np.array([[0, -1, 0],
