@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Enhancement</title>
+</head>
+<body>
+    <h1>Welcome to the Image Enhancement API</h1>
+    <ul>
+        {% for link in links %}
+        <li><a href="{{ link.url }}">{{ link.description }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
